@@ -1,7 +1,7 @@
 require_relative 'git_metrics'
-require 'test/unit'
+require 'minitest/autorun'
 
-class TestGitMetrics < Test::Unit::TestCase
+class TestGitMetrics < MiniTest::Unit::TestCase
 
   def test_commit_example
         assert_equal 2, num_commits(["commit abc", "commit 123"]), "Should have counted two commits"

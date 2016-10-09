@@ -1,4 +1,4 @@
-#script that obtains various git metrics from a basic git log file
+# Script that obtains various git metrics from a basic git log file
 require 'set'
 require 'date'
 
